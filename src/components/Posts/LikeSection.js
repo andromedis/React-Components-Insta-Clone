@@ -23,7 +23,6 @@ const LikeSection = props => {
               ? <img src={heartFilled} class={'svg-inline--fa fa-w-16'} onClick={() => {likePost()}}></img>
               : <FontAwesomeIcon icon={faHeart} onClick={() => {likePost()}}/>
           }
-          {/* <FontAwesomeIcon icon={faHeart} onClick={() => {likePost()}}/> */}
         </div>
         <div className='like-section-wrapper'>
           <FontAwesomeIcon icon={faComment} />
